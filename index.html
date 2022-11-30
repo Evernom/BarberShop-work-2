@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>BarberShop</title>
   </head>
   <body>
@@ -299,38 +310,106 @@
           <h2 class="section-booking">Online-booking</h2>
           <form class="form-booking">
             <div class="field">
-                <lable class="field__title"></lable>
-                <input 
-                type="text" 
+              <lable class="field__title"></lable>
+              <input
+                type="text"
                 class="field__input"
                 name="text"
                 id="form-name"
-                placeholder="Name*">
-                </input>
+                placeholder="Name*"
+              />
             </div>
             <div class="field">
-                <lable class="field__title"></lable>
-                <input 
-                type="tel" 
+              <lable class="field__title"></lable>
+              <input
+                type="tel"
                 class="field__input"
                 name="tel"
                 id="form-tel"
-                placeholder="Phone*">
-                </input>
+                placeholder="Phone*"
+              />
             </div>
             <div class="field">
-                <lable class="field__title"></lable>
-                <textarea 
-                type="text" 
+              <lable class="field__title"></lable>
+              <textarea
+                type="text"
                 class="field__comment"
                 name="comment"
-                placeholder="Message">
-                </textarea>
+                placeholder="Message"
+              ></textarea>
             </div>
+            <button type="button" class="form-booking__button">Send</button>
           </form>
         </div>
       </section>
-      <section class="section section-contacts"></section>
+      <section class="section section-contacts">
+        <div class="container">
+          <address class="address">
+            <h2 class="section-contacts__title">Contacts</h2>
+            <ul class="contacts-set">
+              <li class="contacts-set__item">
+                <a
+                  href="https://www.google.com/maps/contrib/114875582663505976463/reviews?hl=ru-BG&sa=X&ved=2ahUKEwjLjZ7GmLfjAhWSDewKHQK3AUsQvvQBegQIARAD"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="contacts-set__link"
+                >
+                  <!-- <svg class="contacts-set__icon">
+                    <use></use>
+                  </svg> -->
+                  st. Vasilkovaya, 7A Kiev, 08132
+                </a>
+              </li>
+              <li class="contacts-set__item">
+                <a href="tel:+380441111111" class="contacts-set__link">
+                  <!-- <svg class="contacts-set__icon">
+                    <use></use>
+                  </svg> -->
+                  +38 044 111 11 11
+                </a>
+              </li>
+              <li class="contacts-set__item">
+                <a
+                  href="mailto:barbershop@email.com"
+                  class="contacts-set__link"
+                >
+                  <!-- <svg class="contacts-set__icon">
+                    <use></use>
+                  </svg> -->
+                  barbershop@email.com
+                </a>
+              </li>
+            </ul>
+          </address>
+          <h3 class="work-title">Working hours</h3>
+          <p class="work-text">Every day from 9:00 to 22:00</p>
+        </div>
+      </section>
     </main>
+    <footer class="page-footer">
+      <div class="container">
+        <p class="copy">&copy; Copyright 2020</p>
+        <ul class="resourse">
+          <li class="resourse__item">
+            <a
+              class="resourse__link"
+              href="#"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Instagram</a
+            >
+          </li>
+          <li class="resourse__item">
+            <a
+              class="resourse__link"
+              href="#"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Youtube</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
