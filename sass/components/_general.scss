@@ -1,0 +1,46 @@
+body {
+  font-family: $main-font , $title-font ,  sans-serif;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+ul {
+  list-style: none;
+}
+.section {
+  padding-top: 84px;
+  padding-bottom: 84px;
+
+//   @media screen and (min-width:1200px) {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+//   }
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+//   @media screen and (min-width:480px) {
+//     width: 480px;
+//   }
+
+//   @media screen and (min-width:768px) {
+//     width: 768px;
+//   }
+
+//   @media screen and (min-width:1200px) {
+//     width: 1200px;
+//   }
+}
+.fix-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
