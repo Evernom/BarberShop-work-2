@@ -1,0 +1,105 @@
+.section-booking{
+    background-color: #191C26;
+}
+.section-booking__title{
+font-family: $title-font;
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: calc(49 / 42);
+text-align: center;
+letter-spacing: 0.05em;
+color: $hero-color;
+margin-bottom: 44px;
+}
+.field__input{
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: calc(15 / 11);
+letter-spacing: 0.1em;
+text-transform: uppercase;
+width: 100%;
+background-color: transparent;
+border: none;
+border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+color: rgba(157, 164, 189, 0.4);
+cursor: pointer;
+outline: none;
+padding-bottom: 8px;
+margin-bottom: 44px;
+
+    &:hover,
+    &:focus {
+    border-bottom: 1px solid #fff;
+    outline: transparent;
+    color: #fff;
+  }
+
+  &::placeholder {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+
+    &:hover,
+    &:focus {
+    color: $hero-color;
+  }
+  }
+}
+.field__comment{
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: calc(15 / 11);
+letter-spacing: 0.1em;
+text-transform: uppercase;
+width: 100%;
+background-color: transparent;
+border: none;
+border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+color: rgba(157, 164, 189, 0.4);
+cursor: pointer;
+outline: none;
+height: 74px;
+
+    &:hover,
+    &:focus {
+    border-bottom: 1px solid #fff;
+    outline: transparent;
+    color: #fff;
+  }
+
+}
+.field__comment::placeholder {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+  }
+.field__comment:focus::placeholder,
+                :hover::placeholder {
+                    color: $hero-color;
+                }
+.form-booking__button{
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid $hover-color;
+    border-radius: 25px;
+    cursor: pointer;
+    color: $hero-color;
+    background-color: transparent;
+    padding: 12px 65px;
+    margin-top: 44px;
+    margin-left: 129px;
+
+    &:hover,
+    &:focus {
+    background-color: $hover-color;
+  }
+}

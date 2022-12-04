@@ -1,0 +1,27 @@
+.section-gallery__title{
+position: relative;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: calc(15 / 11);
+text-transform: uppercase;
+margin: 0 0 71px 80px;
+
+&::before {
+    content: '';
+    position: absolute;
+    transform: rotate(90deg);
+    top: -21px;
+    left: -50px;
+    width: 1px;
+    height: 60px;
+    background-color: $main-color;
+  }
+}
+.gallery-set__item{
+    margin-bottom: 30px;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+}

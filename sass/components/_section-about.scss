@@ -7,14 +7,14 @@
     text-transform: uppercase;
     color: $main-color;
     margin-bottom: 20px;
-    margin-left: 100px;
+    margin-left: 80px;
 
     &::before {
     content: '';
     position: absolute;
     transform: rotate(90deg);
     top: -22px;
-    left: -53px;
+    left: -49px;
     width: 1px;
     height: 60px;
     background-color: $main-color;
@@ -28,7 +28,7 @@
     line-height: 1.17857143;
     letter-spacing: 0.05em;
     color: $main-color;
-    padding: 0 128px 20px 16px;
+    margin: 0 128px 20px 0;
 }
 .section-about__after-title{
     font-style: normal;
@@ -37,7 +37,7 @@
     line-height: 1.625;
     letter-spacing: 0.02em;
     color: #555555;
-    margin: 0 16px 20px 16px;
+    margin: 0 0 20px 0;
 }
 .section-about__text{
 font-style: normal;
@@ -46,7 +46,7 @@ font-size: 14px;
 line-height: 1.86;
 letter-spacing: 0.02em;
 color: #555555;
-margin: 0 16px 40px 16px;
+margin: 0 0 40px 0;
 }
 
 .section-about__button{
